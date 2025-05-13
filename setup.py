@@ -9,6 +9,7 @@ def get_requirements(file_path:str)->List[str]:
 
         if Hyphen_dot_e in requirements:
             requirements.remove(Hyphen_dot_e)
+    return requirements
 
 setup(
     name ='mlproject',
