@@ -5,6 +5,7 @@ import pandas as pd
 import dill
 
 from src.exception import CustomException
+from sklearn.model_selection import GridSearchCV
 
 def save_object(file_path, obj):
     try:
